@@ -1,5 +1,5 @@
 import React from 'react';
-import './EventPlanner.css'; // Import CSS file for styling
+import './EventPlanner.css'; 
 
 const EventPlanner = () => {
     return (
@@ -8,9 +8,7 @@ const EventPlanner = () => {
                 <h1>Welcome to Event Planner</h1>
             </header>
              
-            {/* Section for describing the purpose or overview of the app*/}
             <section  className='description'>
-                {/* Brief introduction or maketing message */}
                 <p>
                     Plan and organize your events effortlessly with Event Planner. From
                     birtdays to corporate meetings, we've got you covered.
@@ -19,7 +17,6 @@ const EventPlanner = () => {
                 <button className="get-started-button">Get Started</button>
             </section>
 
-            {/* Section for list or categorize different types of event */}
             
             <section className='event-categories'>
                 {/* Social Events Types */}
@@ -63,7 +60,6 @@ const EventPlanner = () => {
 
             </section>
 
-            {/* Section to highlight app features or functionalities */}
             <section className='features'>
                 <h2>Features</h2>
                 <ul>
@@ -75,21 +71,18 @@ const EventPlanner = () => {
                 </ul>
             </section>
 
-            {/* Section to showcase user reviews or testimonials*/}
             <section className='testimonials'>
                 <h2>Testimonials</h2>
                 <div className="testimonial">
                     <p>"Event Planner made organizing my wedding a breez. Highly Recommended!"</p>
                     <p className="author">-Emily Johnson</p>
                 </div>
-                {/* Additional testimonials can be added here */}
                 <div className="testimonial">
                     <p>I use Event Planner for all my corporate events. It saves me so much time and effort!</p>
                     <p className="author">-John Smith</p>
                 </div>
             </section>
 
-            {/* Section to provide contact information or a contact form */}
             <section className='contact'>
                 <h2>Contact Us</h2>
                 <form>
